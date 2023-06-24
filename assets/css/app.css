@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    /*Black*/
+    --color-444446: #444446;
+    /*Blue*/
+    --color-58BBFF: #58BBFF;
+    /*White*/
+    --color-white: #FFFFFF;
+    /*Red*/
+    --color-EB4B4B: #EB4B4B;
+    /*Red*/
+    --color-F2D718: #F2D718;
+}
+
+html,
+body {
+    background-color: var(--color-white);
+    color: var(--color-444446);
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.divC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* .divC2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+} */
+
+.myintro h6 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: .001;
+    font-style: normal;
+}
+
+.myintro h1 {
+    font-weight: 800;
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.myintro p {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.myintro button {
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid var(--color-58BBFF);
+    padding: 10px 50px 10px 50px;
+    background-color: var(--color-white);
+    transition: ease-in-out .3s;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+}
+
+.myintro button:hover {
+    background-color: var(--color-58BBFF);
+    color: var(--color-white);
+}
+
+.introduce p {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.about div div h6 {
+    font-weight: bold;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.social-items i {
+    font-size: 30px;
+    margin-left: 11px;
+    opacity: .8;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.social-items i:hover {
+    opacity: 1;
+}
+
+.fa-discord {
+    color: var(--color-58BBFF);
+}
+
+.fa-square-facebook {
+    color: var(--color-58BBFF);
+}
+
+.fa-instagram {
+    background: linear-gradient(var(--color-58BBFF), var(--color-EB4B4B), var(--color-F2D718));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-telegram {
+    color: var(--color-58BBFF);
+}
+
+.fa-square-github {
+    color: var(--color-444446);
+}
+
+.dl-resume {
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid var(--color-58BBFF);
+    padding: 10px 50px 10px 50px;
+    background-color: var(--color-white);
+    transition: ease-in-out .3s;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    height: 50px;
+}
+
+.dl-resume:hover {
+    background-color: var(--color-58BBFF);
+    color: var(--color-white);
+}
+
+.web-item {
+    display: inline-block;
+}
+
+.web-item img {
+    transform: scale(0.5, 0.5);
+    -ms-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5);
+    position: relative;
+}
+
+.box-project {
+    border: 1px solid var(--color-444446);
+}
+
+/* .box-project img:hover {
+    transform: scale(1.2, 1.2);
+    /* -ms-transform: scale(0.5, 0.5);
+    -webkit-transform: scale(0.5, 0.5); */
+} */
+
+.info-project h4 {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.info-project p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.project-header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 57px;
+}
+
+.skills h6 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.skills div h4 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info-project h4 a {
+    text-decoration: none;
+    color: var(--color-58BBFF);
+}
+
+.info-project h4 a:hover {
+    text-decoration: underline;
+}
