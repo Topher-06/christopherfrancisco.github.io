@@ -260,26 +260,49 @@ body {
         height: 40px;
     }
 }
-@media (max-width:564px){
+
+@media (max-width:564px) {
     .myintro h1 {
         font-size: 2.5rem;
     }
+
     .myintro h6 {
         font-size: 10px;
     }
+
     .myintro p {
         font-size: .7rem;
     }
-    section{
+    .skills h6 {
+        text-align: center;
+    }
+    section {
         padding: 40px;
     }
+
     .web-item img {
         transform: scale(0.4, 0.4);
         -ms-transform: scale(0.4, 0.4);
         -webkit-transform: scale(0.4, 0.4);
         position: relative;
     }
-    h6.project-header.text-center.mt-2{
-        margin-top: 3rem!important;
+
+    h6.project-header.text-center.mt-2 {
+        margin-top: 10rem !important;
+    }
+
+    section:nth-child(2).divC {
+        display: block;
+        height: 100%;
+    }
+
+    section:nth-child(3).divC {
+        display: block;
+        height: 100%;
+    }
+
+    section:nth-child(4).divC {
+        display: block;
+        height: 100%;
     }
 }
