@@ -1,0 +1,74 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1b1f24;
+    margin: 0
+}
+
+p {
+    margin: 0
+}
+
+.h1,
+h1 {
+    font-size: 1.75rem
+}
+
+.h1,
+.h2,
+h1,
+h2 {
+    font-weight: 600
+}
+
+.h2,
+h2 {
+    font-size: 1.5rem
+}
+
+.h3,
+h3 {
+    font-weight: 600;
+    font-size: 1.25rem
+}
+
+.h4,
+h4 {
+    font-size: 1rem
+}
+
+.h5,
+h5 {
+    font-size: .875rem
+}
+
+.h6,
+h6 {
+    font-size: .75rem;
+    font-weight: 500
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-feature-settings: "salt" on
+}
+
+p+p {
+    margin-top: 1rem
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+a:focus,
+a:focus-visible {
+    outline-offset: 4px;
+    outline-color: rgba(216, 88, 136, .5)
+}
