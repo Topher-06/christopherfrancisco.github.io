@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background: #0F172A;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    
+    color: rgb(156 163 175/1);
+}
+
+.container{
+    width: 60%;
+}
+.social_media_section>a{
+    text-decoration: none;
+}
+.social_media_section>a>i{
+    font-size: 15pt;
+    padding: .5rem;
+    color: rgb(107 114 128/1);
+    transition: 1s;
+    
+    cursor: pointer;
+}
+.social_media_section>a>i:hover{
+    color: rgba(59,130,246,1);
+}
+._name{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    color: #e2e2e2;
+    line-height: 1;
+}
+.intro_container{
+    height: 100vh;
+    display:table-cell;
+    vertical-align:middle
+}
+
+.skills_container{
+    margin-bottom: 10rem;
+}
+.about_me_container{
+    margin-bottom: 10rem;
+}
+.education_background_container{
+    margin-bottom: 10rem;
+}
+
+.experience_container{
+    margin-bottom: 10rem;
+}
+.project_container{
+    margin-bottom: 10rem;
+}
+._introduction_desc{
+    width: 60.666667%;
+    margin-top: 4rem;
+    font-size: 10pt;
+}
+.badge_title_intro{
+    border: 1px solid rgb(156 163 175/1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 5rem;
+    border: 1px solid rgba(59,130,246,.2);
+    color: rgba(59,130,246,.8);
+    box-shadow: 0 0 90px rgba(59,130,246,.2);
+}
+
+.badge_title{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 8pt;
+    margin-bottom: 5rem;
+    border: 1px solid rgba(59,130,246,.2);
+    color:rgb(56 189 248/1);
+    
+    transition: 1s;
+}
+.badge_title:hover{
+    transition: 1s;
+    padding-left: 50px;
+}
+.social_media_section{
+    margin-top: 3rem;
+}
+.btn-custom{
+    color: rgb(107 114 128/1);
+    font-size: 9pt;
+    background-color: rgb(31 41 55/1);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(107 114 128/1);
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btn-custom:hover{
+    border: 1px solid rgba(59,130,246,1);
+    color: rgba(59,130,246,1);
+}
+.card-custom{
+    width: 10%;
+    border-radius: 5px;
+    border: 1px solid rgb(51 65 85/1);
+    transition: 1s;
+}
+.bg-custom-footer{
+    background-color: rgb(51 65 85/1);
+    transition: 1s;
+}
+.title-footer{
+    font-size: 9pt;
+}
+.html:hover{
+    border: 1px solid #e04924;
+    box-shadow: 0 0 200px #e04924;
+    .bg-custom-footer{
+        background-color: #e04924;
+        color: #0F172A;
+    }
+}
+
+.css:hover{
+    border: 1px solid #3d8fc6;
+    box-shadow: 0 0 200px #3d8fc6;
+    .bg-custom-footer{
+        background-color: #3d8fc6;
+        color: #0F172A;
+    }
+}
+
+
+.bs:hover{
+    border: 1px solid #712cf9;
+    box-shadow: 0 0 200px #712cf9;
+    .bg-custom-footer{
+        background-color: #712cf9;
+        color: #0F172A;
+    }
+}
+
+
+.jquery:hover{
+    border: 1px solid #0769ad;
+    box-shadow: 0 0 200px #0769ad;
+    .bg-custom-footer{
+        background-color: #0769ad;
+        color: #0F172A;
+    }
+}
+
+
+
+.vue:hover{
+    border: 1px solid #41b883;
+    box-shadow: 0 0 200px #41b883;
+    .bg-custom-footer{
+        background-color: #41b883;
+        color: #0F172A;
+    }
+}
+
+
+
+.php:hover{
+    border: 1px solid #777bb3;
+    box-shadow: 0 0 200px #777bb3;
+    .bg-custom-footer{
+        background-color: #777bb3;
+        color: #0F172A;
+    }
+}
+
+.codeigniter:hover{
+    border: 1px solid #dc4026;
+    box-shadow: 0 0 200px #dc4026;
+    .bg-custom-footer{
+        background-color: #dc4026;
+        color: #0F172A;
+    }
+}
+
+.laravel:hover{
+    border: 1px solid #e23e33;
+    box-shadow: 0 0 200px #e23e33;
+    .bg-custom-footer{
+        background-color: #e23e33;
+        color: #0F172A;
+    }
+}
+
+.java:hover{
+    border: 1px solid #e92b2d;
+    box-shadow: 0 0 200px #e92b2d;
+    .bg-custom-footer{
+        background-color: #e92b2d;
+        color: #0F172A;
+    }
+}
+
+.github:hover{
+    border: 1px solid #9ca3af;
+    box-shadow: 0 0 200px #9ca3af;
+    .bg-custom-footer{
+        background-color: #9ca3af;
+        color: #0F172A;
+    }
+}
+
+.git:hover{
+    border: 1px solid #f34f29;
+    box-shadow: 0 0 200px #f34f29;
+    .bg-custom-footer{
+        background-color: #f34f29;
+        color: #0F172A;
+    }
+}
+.about_me_desc{
+    font-size: 11pt;
+}
+
+.card-custom-horizontal{
+    border: 1px solid rgb(107 114 128/.5);
+    background-color: transparent;
+    transition: 1s;
+}
+.card-custom-horizontal-2{
+    border: 1px solid rgb(107 114 128/.5);
+    background-color: transparent;
+    transition: .5s;
+}
+.card-custom-horizontal-2:hover{
+    border: 1px solid rgba(59,130,246,.4);
+    transform: scale(1.01);
+}
+.card-custom-horizontal:hover{
+    background-color: rgba(59,130,246,.4);
+    border: 1px solid rgba(59,130,246,.4);
+    transform: scale(1.05);
+}
+
+.card-title{
+    font-size: 12pt;
+    color: rgba(59,130,246,1);
+}
+.card-text{
+    font-size: 8pt;
+}
+.bg-badges-custom{
+    background-color: rgba(59,130,246,.4);
+    padding: 5pt;
+    color: rgb(156 163 175/1);
+}
+.nav-link-custom{
+    color: rgb(107 114 128/1);
+    font-size: 10pt;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.nav-link-custom.active{
+    color: rgba(59,130,246,1);
+    border-bottom: 1px solid rgba(59,130,246,1);
+}
+
