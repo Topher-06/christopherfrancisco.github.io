@@ -13,7 +13,7 @@ axios
         `<div class="col-sm-6">
                 <div class="card mb-3 card-custom-horizontal-2 p-2" >
                   <div class="row g-0">
-                  <div class="col-md-2 d-flex flex-wrap align-items-center">
+                  <div class="col-md-2 d-flex flex-wrap align-items-center justify-content-center">
                   <img
                     src="`+response.data[index].project_logo+`"
                     class="img-fluid rounded-start p-4" 

@@ -296,3 +296,35 @@ body{
 
 /* Scroll Bar Style */
 
+/* Media Query Responsive */
+@media only screen and (max-width: 600px) {
+    ._name{
+        font-size: 2rem;
+    }
+    .container{
+        width: 90%;
+    }
+    ._introduction_desc{
+        width: 90.666667%;
+        margin-top: 3rem;
+        font-size: 8pt;
+    }
+    .social_media_section>a>i{
+        font-size: 12pt;
+        padding: .5rem;
+        color: rgb(107 114 128/1);
+        transition: 1s;
+        
+        cursor: pointer;
+    }
+    .btn-custom{
+        font-size: 8pt;
+    }
+    .card-custom{
+        width: 30%;
+    }
+    .about_me_desc{
+        font-size: 8pt;
+    }
+  }
+
